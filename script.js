@@ -6,6 +6,7 @@ import { runBoomerangs } from "./modules/boomerangs.js";
 import { runPriceyProducts } from "./modules/priceyProducts.js";
 import { runShiritori } from "./modules/shiritoriGame.js";
 import { runSockMerchant } from "./modules/socksPair.js";
+import { runmajorityVote } from "./modules/majorityVote.js";
 
 function main() {
   //   runConvertObjToArr();
@@ -15,8 +16,9 @@ function main() {
   //   runBoomerangs();
   //   runPriceyProducts();
   //   runShiritori();
+  //   runSockMerchant();
 
-  runSockMerchant();
+  runmajorityVote();
 }
 
 main();
