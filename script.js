@@ -7,6 +7,7 @@ import { runPriceyProducts } from "./modules/priceyProducts.js";
 import { runShiritori } from "./modules/shiritoriGame.js";
 import { runSockMerchant } from "./modules/socksPair.js";
 import { runmajorityVote } from "./modules/majorityVote.js";
+import { runVowelLinks } from "./modules/vowelLinks.js";
 
 function main() {
   //   runConvertObjToArr();
@@ -17,8 +18,9 @@ function main() {
   //   runPriceyProducts();
   //   runShiritori();
   //   runSockMerchant();
+  //   runmajorityVote();
 
-  runmajorityVote();
+  runVowelLinks();
 }
 
 main();
