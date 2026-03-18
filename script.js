@@ -8,6 +8,7 @@ import { runShiritori } from "./modules/shiritoriGame.js";
 import { runSockMerchant } from "./modules/socksPair.js";
 import { runmajorityVote } from "./modules/majorityVote.js";
 import { runVowelLinks } from "./modules/vowelLinks.js";
+import { runSumMissingNumbers } from "./modules/sumMissingNums.js";
 
 function main() {
   //   runConvertObjToArr();
@@ -19,8 +20,9 @@ function main() {
   //   runShiritori();
   //   runSockMerchant();
   //   runmajorityVote();
+  //   runVowelLinks();
 
-  runVowelLinks();
+  runSumMissingNumbers();
 }
 
 main();
