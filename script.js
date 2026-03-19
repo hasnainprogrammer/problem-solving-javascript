@@ -9,6 +9,7 @@ import { runSockMerchant } from "./modules/socksPair.js";
 import { runmajorityVote } from "./modules/majorityVote.js";
 import { runVowelLinks } from "./modules/vowelLinks.js";
 import { runSumMissingNumbers } from "./modules/sumMissingNums.js";
+import { runGetHashTags } from "./modules/getHashTags.js";
 
 function main() {
   //   runConvertObjToArr();
@@ -21,8 +22,8 @@ function main() {
   //   runSockMerchant();
   //   runmajorityVote();
   //   runVowelLinks();
-
-  runSumMissingNumbers();
+  //   runSumMissingNumbers();
+  runGetHashTags();
 }
 
 main();
