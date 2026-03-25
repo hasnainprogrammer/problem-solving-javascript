@@ -10,6 +10,7 @@ import { runmajorityVote } from "./modules/majorityVote.js";
 import { runVowelLinks } from "./modules/vowelLinks.js";
 import { runSumMissingNumbers } from "./modules/sumMissingNums.js";
 import { runGetHashTags } from "./modules/getHashTags.js";
+import { runHighestPair } from "./modules/cardPair.js";
 
 function main() {
   //   runConvertObjToArr();
@@ -23,7 +24,8 @@ function main() {
   //   runmajorityVote();
   //   runVowelLinks();
   //   runSumMissingNumbers();
-  runGetHashTags();
+  //   runGetHashTags();
+  runHighestPair();
 }
 
 main();
