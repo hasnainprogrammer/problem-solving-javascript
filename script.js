@@ -12,6 +12,7 @@ import { runSumMissingNumbers } from "./modules/sumMissingNums.js";
 import { runGetHashTags } from "./modules/getHashTags.js";
 import { runHighestPair } from "./modules/cardPair.js";
 import { runfindIntersection } from "./modules/intersection.js";
+import { runCalculateAsciiDifference } from "./modules/asciiDifference.js";
 
 function main() {
   //   runConvertObjToArr();
@@ -27,7 +28,8 @@ function main() {
   //   runSumMissingNumbers();
   //   runGetHashTags();
   //   runHighestPair();
-  runfindIntersection();
+  //   runfindIntersection();
+  runCalculateAsciiDifference();
 }
 
 main();
