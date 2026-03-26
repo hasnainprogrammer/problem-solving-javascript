@@ -11,6 +11,7 @@ import { runVowelLinks } from "./modules/vowelLinks.js";
 import { runSumMissingNumbers } from "./modules/sumMissingNums.js";
 import { runGetHashTags } from "./modules/getHashTags.js";
 import { runHighestPair } from "./modules/cardPair.js";
+import { runfindIntersection } from "./modules/intersection.js";
 
 function main() {
   //   runConvertObjToArr();
@@ -25,7 +26,8 @@ function main() {
   //   runVowelLinks();
   //   runSumMissingNumbers();
   //   runGetHashTags();
-  runHighestPair();
+  //   runHighestPair();
+  runfindIntersection();
 }
 
 main();
