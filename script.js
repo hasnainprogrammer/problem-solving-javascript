@@ -14,6 +14,7 @@ import { runHighestPair } from "./modules/cardPair.js";
 import { runfindIntersection } from "./modules/intersection.js";
 import { runCalculateAsciiDifference } from "./modules/asciiDifference.js";
 import { runFindMissingNumber } from "./modules/missingNumber.js";
+import { runCanAttendAllMeetings } from "./modules/canAttendAllMeetings.js";
 
 function main() {
   //   runConvertObjToArr();
@@ -31,7 +32,8 @@ function main() {
   //   runHighestPair();
   //   runfindIntersection();
   //   runCalculateAsciiDifference();
-  runFindMissingNumber();
+  //   runFindMissingNumber();
+  runCanAttendAllMeetings();
 }
 
 main();
