@@ -15,6 +15,7 @@ import { runfindIntersection } from "./modules/intersection.js";
 import { runCalculateAsciiDifference } from "./modules/asciiDifference.js";
 import { runFindMissingNumber } from "./modules/missingNumber.js";
 import { runCanAttendAllMeetings } from "./modules/canAttendAllMeetings.js";
+import { runOptimalStockTrading } from "./modules/optimalStockTrading.js";
 
 function main() {
   //   runConvertObjToArr();
@@ -33,7 +34,8 @@ function main() {
   //   runfindIntersection();
   //   runCalculateAsciiDifference();
   //   runFindMissingNumber();
-  runCanAttendAllMeetings();
+  //   runCanAttendAllMeetings();
+  runOptimalStockTrading();
 }
 
 main();
